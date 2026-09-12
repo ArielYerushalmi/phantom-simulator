@@ -1,0 +1,182 @@
+[
+
+  {
+    "Id": "1",
+    "Location": "0",
+    "Name": "Sync",
+    "Mask": "11111111",
+    "StartBit": "0",
+    "Bit": "8",
+    "Min": "172",
+    "Max": "172"
+  },
+
+  {
+    "Id": "2",
+    "Location": "1",
+    "Name": "Roll",
+    "Mask": "11111111",
+    "StartBit": "0",
+    "Bit": "8",
+    "Min": "0",
+    "Max": "255"
+  },
+
+  {
+    "Id": "3",
+    "Location": "2",
+    "Name": "Speed",
+    "Mask": "11111111",
+    "StartBit": "0",
+    "Bit": "8",
+    "Min": "0",
+    "Max": "255"
+  },
+
+  {
+    "Id": "4",
+    "Location": "3",
+    "Name": "Gforce",
+    "Mask": "11110000",
+    "StartBit": "0",
+    "Bit": "4",
+    "Min": "0",
+    "Max": "9"
+  },
+  {
+    "Id": "5",
+    "Location": "3",
+    "Name": "IsSneakMode",
+    "Mask": "00001000",
+    "StartBit": "4",
+    "Bit": "1",
+    "Min": "0",
+    "Max": "1"
+  },
+  {
+    "Id": "6",
+    "Location": "3",
+    "Name": "IsArmed",
+    "Mask": "00000100",
+    "StartBit": "5",
+    "Bit": "1",
+    "Min": "0",
+    "Max": "1"
+  },
+  {
+    "Id": "7",
+    "Location": "3",
+    "Name": "BombsAmount",
+    "Mask": "00000011",
+    "StartBit": "6",
+    "Bit": "2",
+    "Min": "0",
+    "Max": "3"
+  },
+
+  {
+    "Id": "8",
+    "Location": "4",
+    "Name": "IsTargetDetected",
+    "Mask": "10000000",
+    "StartBit": "0",
+    "Bit": "1",
+    "Min": "0",
+    "Max": "1"
+  },
+  {
+    "Id": "9",
+    "Location": "4",
+    "Name": "DistanceFromTarget",
+    "Mask": "01111111",
+    "StartBit": "1",
+    "Bit": "7",
+    "Min": "0",
+    "Max": "127"
+  },
+
+  {
+    "Id": "10",
+    "Location": "5",
+    "Name": "IsEngineError",
+    "Mask": "10000000",
+    "StartBit": "0",
+    "Bit": "1",
+    "Min": "0",
+    "Max": "1"
+  },
+  {
+    "Id": "11",
+    "Location": "5",
+    "Name": "IsLandingMode",
+    "Mask": "01000000",
+    "StartBit": "1",
+    "Bit": "1",
+    "Min": "0",
+    "Max": "1"
+  },
+  {
+    "Id": "12",
+    "Location": "5",
+    "Name": "AutomaticPilot",
+    "Mask": "00100000",
+    "StartBit": "2",
+    "Bit": "1",
+    "Min": "0",
+    "Max": "1"
+  },
+  {
+    "Id": "13",
+    "Location": "5",
+    "Name": "WindVelocity",
+    "Mask": "00011111",
+    "StartBit": "3",
+    "Bit": "5",
+    "Min": "0",
+    "Max": "31"
+  },
+
+  {
+    "Id": "14",
+    "Location": "6",
+    "Name": "AirPreasure",
+    "Mask": "11111111",
+    "StartBit": "0",
+    "Bit": "8",
+    "Min": "20",
+    "Max": "250"
+  },
+
+  {
+    "Id": "15",
+    "Location": "7",
+    "Name": "EngineHeat",
+    "Mask": "11111111",
+    "StartBit": "0",
+    "Bit": "8",
+    "Min": "70",
+    "Max": "200"
+  },
+
+  {
+    "Id": "16",
+    "Location": "8",
+    "Name": "Altitude",
+    "Mask": "11111111",
+    "StartBit": "0",
+    "Bit": "8",
+    "Min": "0",
+    "Max": "255"
+  },
+
+  {
+    "Id": "17",
+    "Location": "9",
+    "Name": "Checksum",
+    "Mask": "11111111",
+    "StartBit": "0",
+    "Bit": "8",
+    "Min": "0",
+    "Max": "255"
+  }
+]
