@@ -6,7 +6,7 @@ namespace Simulator_best
     {
         static async Task Main(string[] args)
         {
-            var simulator = new UDPSimulator();
+            using var simulator = new UDPSimulator();
             simulator.Initialize();
             await simulator.EncodingRawMessage();
         }
